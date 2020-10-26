@@ -353,7 +353,6 @@ body{
     flex-direction: row;
     align-items: flex-start;
     margin-top: 20px;
-    max-width: 800px;
 }
 .comment-data{
     display: flex;
@@ -376,5 +375,8 @@ body{
     background-color: white;
     border: none;
     font-size: 11pt;
+}
+.comment-content > p{
+    max-width:700px;
 }
 /* Comments End */
